@@ -6,9 +6,9 @@ using TestAPI.Models;
 
 namespace TestAPI.Service
 {
-    public class StudentService
+    public class StudentService : IService.IStudentService
     {
-        List<Student> students = null;
+        private List<Student> students = null;
 
         public StudentService()
         {

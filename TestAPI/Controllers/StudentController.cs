@@ -11,7 +11,7 @@ namespace TestAPI.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private Service.StudentService service = null;
+        private IService.IStudentService service = null;
 
         public StudentController()
         {
