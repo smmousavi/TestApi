@@ -6,7 +6,7 @@ using TestAPI.Models;
 
 namespace TestAPI.IService
 {
-    interface IStudentService
+    public interface IStudentService
     {
         Student Get(int id);
 

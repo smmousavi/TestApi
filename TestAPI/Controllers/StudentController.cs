@@ -11,24 +11,24 @@ namespace TestAPI.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private IService.IStudentService service = null;
+        private readonly IService.IStudentService _service;
 
-        public StudentController()
+        public StudentController(IService.IStudentService service)
         {
-            service = new Service.StudentService();
+            _service = service;
         }
 
         [HttpGet]
         public ActionResult<IEnumerable<Models.Student>> Get()
         {
-            return service.Get();
+            return _service.Get();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
         public ActionResult<Models.Student> Get(int id)
         {
-            return service.Get(id);
+            return _service.Get(id);
         }
     }
 }
