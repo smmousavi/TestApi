@@ -11,5 +11,7 @@ namespace TestAPI.Core.DataSource
         Student Get(int id);
 
         List<Student> Get();
+
+        Student Add(Student model);
     }
 }

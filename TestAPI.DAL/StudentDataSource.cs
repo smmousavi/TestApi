@@ -17,9 +17,9 @@ namespace TestAPI.DAL
             students = new List<Student>();
 
             students.Add(new Student { Id = 1, FirstName = "Hamid", LastName = "Ghods" });
-            students.Add(new Student { Id = 1, FirstName = "Mostafa", LastName = "Mousavi" });
-            students.Add(new Student { Id = 1, FirstName = "Reza", LastName = "Ektefa" });
-            students.Add(new Student { Id = 1, FirstName = "Ali", LastName = "Alavi" });
+            students.Add(new Student { Id = 2, FirstName = "Mostafa", LastName = "Mousavi" });
+            students.Add(new Student { Id = 3, FirstName = "Reza", LastName = "Ektefa" });
+            students.Add(new Student { Id = 4, FirstName = "Ali", LastName = "Alavi" });
         }
 
         public Student Get(int id)
@@ -30,6 +30,13 @@ namespace TestAPI.DAL
         public List<Student> Get()
         {
             return students;
+        }
+
+        public Student Add(Student model)
+        {
+            students.Add(model);
+
+            return Get(model.Id);
         }
     }
 }

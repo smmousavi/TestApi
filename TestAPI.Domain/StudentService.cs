@@ -18,6 +18,11 @@ namespace TestAPI.Domain
             _dataSource = dataSource;
         }
 
+        public Student Add(Student model)
+        {
+            return _dataSource.Add(model);
+        }
+
         public Student Get(int id)
         {
             return _dataSource.Get(id);

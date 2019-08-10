@@ -32,5 +32,12 @@ namespace TestAPI.Controllers
         {
             return _service.Get(id);
         }
+
+        [HttpPost]
+        public ActionResult<Student> Post(Student model)
+        {
+            return _service.Add(model);
+        }
+
     }
 }
