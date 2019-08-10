@@ -27,6 +27,7 @@ namespace TestAPI
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
             services.AddScoped<IService.IStudentService, Service.StudentService>();
+            services.AddScoped<DataSource.IStudentDataSource, Dal.StudentDataSource>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
