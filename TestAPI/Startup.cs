@@ -9,6 +9,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using TestAPI.Core.DataSource;
+using TestAPI.Core.Service;
+using TestAPI.DAL;
+using TestAPI.Domain;
 
 namespace TestAPI
 {
@@ -26,8 +30,8 @@ namespace TestAPI
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
-            services.AddScoped<IService.IStudentService, Service.StudentService>();
-            services.AddScoped<DataSource.IStudentDataSource, Dal.StudentDataSource>();
+            services.AddScoped<IStudentService, StudentService>();
+            services.AddScoped<IStudentDataSource, StudentDataSource>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

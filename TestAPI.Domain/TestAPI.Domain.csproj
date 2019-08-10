@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestAPI.Core.DataSource\TestAPI.Core.DataSource.csproj" />
+    <ProjectReference Include="..\TestAPI.Core.Model\TestAPI.Core.Model.csproj" />
+    <ProjectReference Include="..\TestAPI.Core.Service\TestAPI.Core.Service.csproj" />
+  </ItemGroup>
+
+</Project>

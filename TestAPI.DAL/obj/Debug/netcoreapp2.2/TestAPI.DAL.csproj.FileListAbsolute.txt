@@ -1,0 +1,14 @@
+C:\Kama\Projects\TestApi\TestAPI.DAL\bin\Debug\netcoreapp2.2\TestAPI.DAL.deps.json
+C:\Kama\Projects\TestApi\TestAPI.DAL\bin\Debug\netcoreapp2.2\TestAPI.DAL.dll
+C:\Kama\Projects\TestApi\TestAPI.DAL\bin\Debug\netcoreapp2.2\TestAPI.DAL.pdb
+C:\Kama\Projects\TestApi\TestAPI.DAL\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.dll
+C:\Kama\Projects\TestApi\TestAPI.DAL\bin\Debug\netcoreapp2.2\TestAPI.Core.Model.dll
+C:\Kama\Projects\TestApi\TestAPI.DAL\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.pdb
+C:\Kama\Projects\TestApi\TestAPI.DAL\bin\Debug\netcoreapp2.2\TestAPI.Core.Model.pdb
+C:\Kama\Projects\TestApi\TestAPI.DAL\obj\Debug\netcoreapp2.2\TestAPI.DAL.csprojAssemblyReference.cache
+C:\Kama\Projects\TestApi\TestAPI.DAL\obj\Debug\netcoreapp2.2\TestAPI.DAL.csproj.CoreCompileInputs.cache
+C:\Kama\Projects\TestApi\TestAPI.DAL\obj\Debug\netcoreapp2.2\TestAPI.DAL.AssemblyInfoInputs.cache
+C:\Kama\Projects\TestApi\TestAPI.DAL\obj\Debug\netcoreapp2.2\TestAPI.DAL.AssemblyInfo.cs
+C:\Kama\Projects\TestApi\TestAPI.DAL\obj\Debug\netcoreapp2.2\TestAPI.DAL.csproj.CopyComplete
+C:\Kama\Projects\TestApi\TestAPI.DAL\obj\Debug\netcoreapp2.2\TestAPI.DAL.dll
+C:\Kama\Projects\TestApi\TestAPI.DAL\obj\Debug\netcoreapp2.2\TestAPI.DAL.pdb

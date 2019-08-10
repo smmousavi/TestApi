@@ -11,4 +11,12 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TestAPI.Core.DataSource\TestAPI.Core.DataSource.csproj" />
+    <ProjectReference Include="..\TestAPI.Core.Model\TestAPI.Core.Model.csproj" />
+    <ProjectReference Include="..\TestAPI.Core.Service\TestAPI.Core.Service.csproj" />
+    <ProjectReference Include="..\TestAPI.DAL\TestAPI.DAL.csproj" />
+    <ProjectReference Include="..\TestAPI.Domain\TestAPI.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -4720,6 +4720,71 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "TestAPI.Core.DataSource/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "TestAPI.Core.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestAPI.Core.DataSource.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestAPI.Core.DataSource.dll": {}
+        }
+      },
+      "TestAPI.Core.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/TestAPI.Core.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestAPI.Core.Model.dll": {}
+        }
+      },
+      "TestAPI.Core.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "TestAPI.Core.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestAPI.Core.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestAPI.Core.Service.dll": {}
+        }
+      },
+      "TestAPI.DAL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "TestAPI.Core.DataSource": "1.0.0",
+          "TestAPI.Core.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestAPI.DAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestAPI.DAL.dll": {}
+        }
+      },
+      "TestAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "dependencies": {
+          "TestAPI.Core.DataSource": "1.0.0",
+          "TestAPI.Core.Model": "1.0.0",
+          "TestAPI.Core.Service": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TestAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TestAPI.Domain.dll": {}
+        }
       }
     }
   },
@@ -12922,6 +12987,31 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "TestAPI.Core.DataSource/1.0.0": {
+      "type": "project",
+      "path": "../TestAPI.Core.DataSource/TestAPI.Core.DataSource.csproj",
+      "msbuildProject": "../TestAPI.Core.DataSource/TestAPI.Core.DataSource.csproj"
+    },
+    "TestAPI.Core.Model/1.0.0": {
+      "type": "project",
+      "path": "../TestAPI.Core.Model/TestAPI.Core.Model.csproj",
+      "msbuildProject": "../TestAPI.Core.Model/TestAPI.Core.Model.csproj"
+    },
+    "TestAPI.Core.Service/1.0.0": {
+      "type": "project",
+      "path": "../TestAPI.Core.Service/TestAPI.Core.Service.csproj",
+      "msbuildProject": "../TestAPI.Core.Service/TestAPI.Core.Service.csproj"
+    },
+    "TestAPI.DAL/1.0.0": {
+      "type": "project",
+      "path": "../TestAPI.DAL/TestAPI.DAL.csproj",
+      "msbuildProject": "../TestAPI.DAL/TestAPI.DAL.csproj"
+    },
+    "TestAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../TestAPI.Domain/TestAPI.Domain.csproj",
+      "msbuildProject": "../TestAPI.Domain/TestAPI.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -12929,7 +13019,12 @@
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3",
+      "TestAPI.Core.DataSource >= 1.0.0",
+      "TestAPI.Core.Model >= 1.0.0",
+      "TestAPI.Core.Service >= 1.0.0",
+      "TestAPI.DAL >= 1.0.0",
+      "TestAPI.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -12961,7 +13056,23 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Kama\\Projects\\TestApi\\TestAPI.Core.DataSource\\TestAPI.Core.DataSource.csproj": {
+              "projectPath": "C:\\Kama\\Projects\\TestApi\\TestAPI.Core.DataSource\\TestAPI.Core.DataSource.csproj"
+            },
+            "C:\\Kama\\Projects\\TestApi\\TestAPI.Core.Model\\TestAPI.Core.Model.csproj": {
+              "projectPath": "C:\\Kama\\Projects\\TestApi\\TestAPI.Core.Model\\TestAPI.Core.Model.csproj"
+            },
+            "C:\\Kama\\Projects\\TestApi\\TestAPI.Core.Service\\TestAPI.Core.Service.csproj": {
+              "projectPath": "C:\\Kama\\Projects\\TestApi\\TestAPI.Core.Service\\TestAPI.Core.Service.csproj"
+            },
+            "C:\\Kama\\Projects\\TestApi\\TestAPI.DAL\\TestAPI.DAL.csproj": {
+              "projectPath": "C:\\Kama\\Projects\\TestApi\\TestAPI.DAL\\TestAPI.DAL.csproj"
+            },
+            "C:\\Kama\\Projects\\TestApi\\TestAPI.Domain\\TestAPI.Domain.csproj": {
+              "projectPath": "C:\\Kama\\Projects\\TestApi\\TestAPI.Domain\\TestAPI.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -26,3 +26,14 @@ C:\Kama\Projects\TestApi\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.AssemblyInfo.cs
 C:\Kama\Projects\TestApi\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.RazorTargetAssemblyInfo.cache
 C:\Kama\Projects\TestApi\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.dll
 C:\Kama\Projects\TestApi\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.pdb
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.Core.Model.dll
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.Core.Model.pdb
+C:\Kama\Projects\TestApi\TestAPI\obj\Debug\netcoreapp2.2\TestAPI.csproj.CopyComplete
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.dll
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.Core.Service.dll
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.DAL.dll
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.Domain.dll
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.pdb
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.Core.Service.pdb
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.DAL.pdb
+C:\Kama\Projects\TestApi\TestAPI\bin\Debug\netcoreapp2.2\TestAPI.Domain.pdb

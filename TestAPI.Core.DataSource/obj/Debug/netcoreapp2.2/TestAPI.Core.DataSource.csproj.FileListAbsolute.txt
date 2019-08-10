@@ -1,0 +1,12 @@
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.deps.json
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.dll
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.pdb
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\bin\Debug\netcoreapp2.2\TestAPI.Core.Model.dll
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\bin\Debug\netcoreapp2.2\TestAPI.Core.Model.pdb
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\obj\Debug\netcoreapp2.2\TestAPI.Core.DataSource.csprojAssemblyReference.cache
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\obj\Debug\netcoreapp2.2\TestAPI.Core.DataSource.csproj.CoreCompileInputs.cache
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\obj\Debug\netcoreapp2.2\TestAPI.Core.DataSource.AssemblyInfoInputs.cache
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\obj\Debug\netcoreapp2.2\TestAPI.Core.DataSource.AssemblyInfo.cs
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\obj\Debug\netcoreapp2.2\TestAPI.Core.DataSource.csproj.CopyComplete
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\obj\Debug\netcoreapp2.2\TestAPI.Core.DataSource.dll
+C:\Kama\Projects\TestApi\TestAPI.Core.DataSource\obj\Debug\netcoreapp2.2\TestAPI.Core.DataSource.pdb

@@ -27,7 +27,12 @@
           "Microsoft.AspNetCore.App": "2.2.0",
           "Microsoft.AspNetCore.Razor.Design": "2.2.0",
           "Microsoft.NETCore.App": "2.2.0",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.2.3",
+          "TestAPI.Core.DataSource": "1.0.0",
+          "TestAPI.Core.Model": "1.0.0",
+          "TestAPI.Core.Service": "1.0.0",
+          "TestAPI.DAL": "1.0.0",
+          "TestAPI.Domain": "1.0.0"
         },
         "runtime": {
           "TestAPI.dll": {}
@@ -340,6 +345,61 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
+        }
+      },
+      "TestAPI.Core.DataSource/1.0.0": {
+        "dependencies": {
+          "TestAPI.Core.Model": "1.0.0"
+        },
+        "runtime": {
+          "TestAPI.Core.DataSource.dll": {}
+        },
+        "compile": {
+          "TestAPI.Core.DataSource.dll": {}
+        }
+      },
+      "TestAPI.Core.Model/1.0.0": {
+        "runtime": {
+          "TestAPI.Core.Model.dll": {}
+        },
+        "compile": {
+          "TestAPI.Core.Model.dll": {}
+        }
+      },
+      "TestAPI.Core.Service/1.0.0": {
+        "dependencies": {
+          "TestAPI.Core.Model": "1.0.0"
+        },
+        "runtime": {
+          "TestAPI.Core.Service.dll": {}
+        },
+        "compile": {
+          "TestAPI.Core.Service.dll": {}
+        }
+      },
+      "TestAPI.DAL/1.0.0": {
+        "dependencies": {
+          "TestAPI.Core.DataSource": "1.0.0",
+          "TestAPI.Core.Model": "1.0.0"
+        },
+        "runtime": {
+          "TestAPI.DAL.dll": {}
+        },
+        "compile": {
+          "TestAPI.DAL.dll": {}
+        }
+      },
+      "TestAPI.Domain/1.0.0": {
+        "dependencies": {
+          "TestAPI.Core.DataSource": "1.0.0",
+          "TestAPI.Core.Model": "1.0.0",
+          "TestAPI.Core.Service": "1.0.0"
+        },
+        "runtime": {
+          "TestAPI.Domain.dll": {}
+        },
+        "compile": {
+          "TestAPI.Domain.dll": {}
         }
       },
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
@@ -3669,6 +3729,31 @@
       "sha512": "sha512-td7x21K8LalpjTWCzW/nQboQIFbq9i0r+PCyBBCdLWWnm4NBcdN18vpz/G9hCpUaCIfRL+ZxJNVTywlNlB1aLQ==",
       "path": "system.linq.parallel/4.3.0",
       "hashPath": "system.linq.parallel.4.3.0.nupkg.sha512"
+    },
+    "TestAPI.Core.DataSource/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestAPI.Core.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestAPI.Core.Service/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestAPI.DAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TestAPI.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

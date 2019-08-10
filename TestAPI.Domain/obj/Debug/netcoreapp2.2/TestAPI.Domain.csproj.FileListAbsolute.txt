@@ -1,0 +1,16 @@
+C:\Kama\Projects\TestApi\TestAPI.Domain\obj\Debug\netcoreapp2.2\TestAPI.Domain.csprojAssemblyReference.cache
+C:\Kama\Projects\TestApi\TestAPI.Domain\obj\Debug\netcoreapp2.2\TestAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Kama\Projects\TestApi\TestAPI.Domain\obj\Debug\netcoreapp2.2\TestAPI.Domain.AssemblyInfoInputs.cache
+C:\Kama\Projects\TestApi\TestAPI.Domain\obj\Debug\netcoreapp2.2\TestAPI.Domain.AssemblyInfo.cs
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Domain.deps.json
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Domain.dll
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Domain.pdb
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.dll
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Core.Model.dll
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Core.Service.dll
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Core.DataSource.pdb
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Core.Model.pdb
+C:\Kama\Projects\TestApi\TestAPI.Domain\bin\Debug\netcoreapp2.2\TestAPI.Core.Service.pdb
+C:\Kama\Projects\TestApi\TestAPI.Domain\obj\Debug\netcoreapp2.2\TestAPI.Domain.csproj.CopyComplete
+C:\Kama\Projects\TestApi\TestAPI.Domain\obj\Debug\netcoreapp2.2\TestAPI.Domain.dll
+C:\Kama\Projects\TestApi\TestAPI.Domain\obj\Debug\netcoreapp2.2\TestAPI.Domain.pdb

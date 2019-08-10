@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using TestAPI.Core.Model;
+using TestAPI.Core.Service;
 
 namespace TestAPI.Controllers
 {
@@ -11,22 +13,22 @@ namespace TestAPI.Controllers
     [ApiController]
     public class StudentController : ControllerBase
     {
-        private readonly IService.IStudentService _service;
+        private readonly IStudentService _service;
 
-        public StudentController(IService.IStudentService service)
+        public StudentController(IStudentService service)
         {
             _service = service;
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Models.Student>> Get()
+        public ActionResult<IEnumerable<Student>> Get()
         {
             return _service.Get();
         }
 
         // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<Models.Student> Get(int id)
+        public ActionResult<Student> Get(int id)
         {
             return _service.Get(id);
         }
